@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7fbff;
+  }
+
+  .navbar {
+    background-color: #f7fbff;
+    padding: 1.5rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 50px 250px rgb(170, 193, 212);
+  }
+
+  .navbar a {
+    color: #3243ff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+    transition: ease-in-out 0.3s;
+  }
+
+  .navbar a:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+  }
+
+  .nav-links {
+    display: flex;
+  }
+
+  .logo {
+    color: #3243ff;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    min-height: calc(100vh - 60px); /* หัก navbar ออก */
+  }
+
+  .container {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  .left {
+    flex: 1;
+  }
+
+  .left img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .left p {
+    margin: 5px 0;
+  }
+
+  .buttons {
+    margin-top: 15px;
+  }
+
+  .buttons button {
+    padding: 10px 20px;
+    margin-right: 10px; /* ระยะห่างระหว่างปุ่ม */
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .divider {
+    width: 1px;
+    background-color: #ccc;
+    height: auto;
+    min-height: 200px;
+  }
+
+  .right {
+    flex: 1;
+  }
+
+  .info-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+  }
+
+  .info-box p {
+    margin: 10px 0;
+  }
